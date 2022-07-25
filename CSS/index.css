@@ -1,0 +1,29 @@
+.flexContainer {
+    display: flex;
+    width: 33%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.CaseStudy1 {
+    grid-column-start: 1;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+      display: flex;
+        flex-direction: column;
+        width: auto;
+        grid-template-rows: 300px 300px 300px 300px 300px;
+        grid-template-columns: 1fr;
+        grid-template-areas: ;
+    }
+  }
