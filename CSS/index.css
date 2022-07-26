@@ -1,14 +1,24 @@
 .flexContainer {
     display: flex;
-    width: 33%;
-    margin: 0 auto;
     padding: 1%;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
+
 
 .workGrid {
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    padding: 1%;
+    justify-content: space-evenly;
+    background-position: center;
+   
+}
+
+
+.h1 {
+    text-align: center;
 }
 
 .CaseStudy1 {
@@ -16,14 +26,150 @@
 }
 
 
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-      display: flex;
-        flex-direction: column;
-        width: auto;
-        grid-template-rows: 300px 300px 300px 300px 300px;
-        grid-template-columns: 1fr;
-        grid-template-areas: ;
-    }
+.subHeading {
+    text-align: center;
+    border-bottom: 2px solid black;
+    width: 300px;
+    margin: 50px auto;
   }
+
+  .ViewAll {
+    text-align: center;
+    width: 300px;
+    margin: 50px auto;
+  }
+
+
+.leftSideBar {
+    float: left;
+}
+
+#leftSideBar {
+    float: left;
+}
+
+div.angelspic {
+    text-align: center;
+    margin: auto;
+    padding: 1%;
+}
+
+div.CaseStudy1 {
+    text-align: center;
+    margin: auto;
+    padding: 5%;
+}
+
+div.Case2 {
+
+    margin: auto;
+    padding: 5%;
+}
+
+.Skills {
+    margin: auto;
+    padding: 5%;
+    width: 300px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+
+
+.workGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    padding: 1%;
+    justify-content: space-evenly;
+    background-position: center;
+   
+}
+
+
+.h1 {
+    text-align: center;
+}
+
+.CaseStudy1 {
+    grid-column-start: 1;
+}
+
+
+.subHeading {
+    text-align: center;
+    border-bottom: 2px solid black;
+    width: 300px;
+    margin: 50px auto;
+  }
+
+  .ViewAll {
+    text-align: center;
+    width: 300px;
+    margin: 50px auto;
+  }
+
+
+.leftSideBar {
+    float: left;
+}
+
+#leftSideBar {
+    float: left;
+}
+
+div.angelspic {
+    text-align: center;
+    margin: auto;
+    padding: 5%;
+}
+
+div.CaseStudy1 {
+    text-align: center;
+    margin: auto;
+    padding: 5%;
+}
+
+div.Case2 {
+
+    margin: auto;
+    padding: 5%;
+}
+
+.Skills {
+    margin: auto;
+    padding: 5%;
+    width: 300px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+        #heroGrid {
+          grid-template-areas:
+          "featuredProduct featuredProduct"
+          "secondaryProduct CTA";
+        }
+        #categoryGrid {
+          grid-template-rows: 300px 300px 300px 300px 300px;
+          grid-template-columns: 1fr;
+          grid-template-areas:
+        
+          ;
+        }
+      }
+
+      
+
+
+      @media only screen and (max-width: 600px) {
+        body {
+          background-color: rgb(255, 255, 255);
+          display: flex;
+            flex-direction: column;
+            width: auto;
+            grid-template-rows: 300px 300px 300px 300px 300px;
+            grid-template-columns: 1fr;
+            grid-template-areas: ;
+        }
+      }
+    
